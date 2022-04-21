@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header>
+        
+        <div class="header-bg">
+            <!-- image logo -->
+            <img src="img/logo.png" alt="Boolean Logo">
+            <!-- Title logo -->
+            <div class="title">Toboolist</div>
+        </div>    
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <div class="container">
+
+            <!-- Button 1 -->
+            <button class="button button-blue"> Add Task</button>        
+            <!-- Button 2 -->
+            <button class="button button-grey"> Add Selection</button>
+
+            <hr>
+            <!-- Check List -->
+            <div class="List-sizeing">
+                <ul> 
+                    <!-- Fist part -->
+                    <li class="bottom-list-padding">
+                        <span class="triangle">&#9662;</span>
+                        <span class="list-start">New Task</span>
+                        <ul class="ul-setting">
+                            <li><span class="checkmark">&#128504;</span>Quarterly Newsletter <span class="box box-color"></span></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                         <!-- Second part -->
+                        <span class="triangle">&#9662;</span>
+                        <span class="list-start">Today</span>
+                    </li>
+
+                    <li>
+                         <!-- Third part -->
+                        <span class="triangle">&#9662;</span>
+                        <span class="list-start">Upcoming</span>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+
+
+       
+
+    </main>
+
+
 </body>
 </html>

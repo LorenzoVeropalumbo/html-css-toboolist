@@ -1,0 +1,125 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* HEADER */
+.header-bg{
+    padding: 10px 30px;
+    background-color: white;
+}
+
+img{
+    vertical-align: middle;
+    width: 90px;
+}
+
+.title{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+
+/* Buttons */
+.button{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 7px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.button-blue{
+    margin-left: 100px;
+    border-color: #47adf1;
+    background-color: #47adf1;
+    color: white;
+}
+
+.button-grey{
+    border-color: #c5cbd0;
+    background-color: white;
+    color: #c5cbd0;
+}
+
+hr{
+    border-style: solid;
+    border-color: #f6f8f9;
+    border-width: 1px;
+}
+
+/* List item */
+
+.List-sizeing{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list-start{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    vertical-align: top;
+}
+
+.ul-setting{
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+/* Symbles */
+
+.triangle{
+    font-size: 30px;
+    vertical-align: middle;
+    
+}
+
+.checkmark{
+    border-radius: 1px;
+    border-color: green;
+    border-style: solid;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px; 
+    vertical-align: middle;
+    color: green;
+}
+
+.bottom-list-padding{
+    padding-bottom: 20px;
+}
+
+.box{
+
+} 
+.box-color{
+    
+}
