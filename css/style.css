@@ -85,6 +85,10 @@ ul{
     vertical-align: top;
 }
 
+.li-margin{
+    margin-bottom: 20px;
+}
+
 .ul-setting{
     padding-left: 5px;
     font-size: 20px;
@@ -113,13 +117,81 @@ ul{
     color: green;
 }
 
+.cross{
+    font-size: 10px;
+    border-radius: 1px;
+    border-color: red;
+    border-style: solid;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px; 
+    vertical-align: middle;
+    color: red;
+}
+
 .bottom-list-padding{
     padding-bottom: 20px;
 }
 
+/* color box */
 .box{
-
+    font-size: 14px;    
+    padding: 5px 10px;
 } 
-.box-color{
-    
+.box-color-blu{
+
+    border-radius: 20px;
+    border: 1px solid #45abea;
+    background-color: #45abea;
+    color: white;
+
+}
+
+.box-color-purple{
+
+    border-radius: 20px;
+    border: 1px solid #9c72e4;
+    background-color: #9c72e4;
+    color: white;
+
+}
+
+.box-color-green{
+
+    border-radius: 20px;
+    border: 1px solid #64c0a9;
+    background-color: #64c0a9;
+    color: white;
+
+}
+
+.box-color-orange{
+
+    border-radius: 20px;
+    border: 1px solid #f29e33;
+    background-color: #f29e33;
+    color: white;
+
+}
+
+.box-color-magenta{
+
+    border-radius: 20px;
+    border: 1px solid #d863a1;
+    background-color: #d863a1;
+    color: white;
+
+}
+
+.box-color-yellow{
+
+    border-radius: 20px;
+    border: 1px solid #b0c926;
+    background-color: #b0c926;
+    color: white;
+
 }
