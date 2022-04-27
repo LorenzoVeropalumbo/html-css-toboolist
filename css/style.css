@@ -102,14 +102,12 @@ ul{
     
 }
 
-<<<<<<< HEAD
+
 .checkmark{   
+    
     border-color: green;
-=======
-.checkmark{
     border-radius: 1px;
     border-color: #69c2ac;
->>>>>>> 55ccedf28e8959324cc2e2e383580780917f0ccb
     border-style: solid;
     margin-right: 10px;
     width: 20px;
