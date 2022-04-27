@@ -102,8 +102,7 @@ ul{
     
 }
 
-.checkmark{
-    border-radius: 1px;
+.checkmark{   
     border-color: green;
     border-style: solid;
     margin-right: 10px;
@@ -119,7 +118,6 @@ ul{
 
 .cross{
     font-size: 10px;
-    border-radius: 1px;
     border-color: red;
     border-style: solid;
     margin-right: 10px;
